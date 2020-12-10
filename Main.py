@@ -87,7 +87,7 @@ def euclidean_norm(pil_image_one, pil_image_two):
 
 
 if __name__ == "__main__":
-    file = "Pictures/VSauce.jpg"
+    file = "Pictures/Bird Meme.jpg"
     pil_input_image = Image.open(file)
 
     pil_Image_one = convolve(pil_input_image, x_kernel)
